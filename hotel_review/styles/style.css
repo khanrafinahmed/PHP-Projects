@@ -1,0 +1,324 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	vertical-align: baseline;
+	
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+
+body {background: white;}
+
+.main_wrapper
+{
+	width: auto;
+	height: auto;
+	margin: auto;
+	background: white;
+}
+
+
+
+#logo
+{
+	height: 100px;
+	width: 170px;
+	float:left;
+}
+
+#banner
+{
+	float: right;
+	height: 100px;
+	width: 830px;
+}
+
+
+/* .menubar{
+	width: 1000px;
+	height: 50px;
+	background: #e5e5e5;
+	color: white;
+}
+ */
+/* #menu{
+	padding:0;
+	margin:0;
+	line-height:40px;
+	float: left;
+}
+
+#menu li{
+	list-style:none;
+	display: inline;
+}
+
+#menu a{
+	
+text-decoration: none;
+color: Black;
+padding: 6px;
+margin: 5px;
+font-size: 18px;
+font-family:  Arial;
+}
+ */
+/* #menu a:hover {color: #404040; font-weight: bolder;} */
+#form {float: right; padding-right: 8px; line-height: 41px;}
+.content_wrapper
+{
+	width: auto;
+	background: white;
+	overflow:hidden;
+	
+}
+
+#content_area
+{
+	
+	
+	
+	background: white;
+	width:auto;
+	min-height:250px;
+	float:left;
+	
+	
+}
+
+#sidebar
+{
+	width: auto;
+	height: auto;
+	background: #e5e5e5 ;
+	float: left;
+	font-size: 35px;
+	margin: black;
+	
+	
+}
+
+#sidebar_title {
+	background: #00592D;
+	color: black;
+	font-size:22px;
+	font-family: arial;
+	padding: 10px;
+	text-align: center;
+}
+
+#cats
+{
+	
+}
+
+#cats li {list-style: none; margin: 5px; }
+
+#cats a {color: black; padding: 8px; margin: 5px; text-align: left; text-decoration:none; font-size: 15px; font-family:Arial ;}
+
+#cats a:hover {color: #404040; font-weight:bolder;}
+
+#products_box
+{
+	width: auto;
+	text-align: center;
+
+	
+}
+
+#single_product {float:left; margin-left:20px; padding:10px; }
+
+#single_product img {border:1px black; }
+
+#single_producta{ 
+float:left; margin-top:-25%; padding:10px; margin-left:20px;
+}
+
+#single_producta p { margin: auto;
+    width: 50%;
+	
+	 }
+	
+	#single_producta img {
+    border: 1px solid black;
+	
+	
+	
+	}
+
+.hotel_rating
+{
+	text-align: center;
+}
+
+.hotel_rate
+{
+	text-align: center;
+}
+
+
+
+#footer
+{
+	width: 100%;
+	height: 100px;
+	background: gray;
+	clear: both;
+}
+
+.navbar-left{
+	float: left;
+	min-height: 15px;
+	display: inline-block;
+	margin-top: -7px;
+}
+
+.navbar-brand {
+  padding: 0px; /* firefox bug fix */
+}
+.navbar-brand>img {
+  height: 200px;
+  padding: 15px; /* firefox bug fix */
+  width: 100%;
+  margin-top: -65px;
+  
+}
+
+.navbar
+{	
+	margin-bottom: 0;
+	border-radius: 0;
+	background-color: #5E4485;
+	padding: 1% 0;
+	font-size: 1.2em;
+	border: 0;
+	top: 0;
+	overflow: hidden;
+	z-index: 999;
+	
+	
+}
+
+.sticky {
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+
+/* Add some top padding to the page content to prevent sudden quick movement (as the navigation bar gets a new position at the top of the page (position:fixed and top:0) */
+
+
+.navbar-inverse .navbar-nav a, .navbar-inverse .navbar-nav  a:focus, .navbar-inverse .navbar-nav a:hover
+{
+color: #FFF;
+background-color: #5E4485;
+
+}
+
+.navbar-inverse .navbar-nav li a{
+color: #D5D5D5;
+
+}
+
+.carousel-caption{
+	top: 50%;
+	transform: translateY(-50%);
+	text-transform: uppercase;
+}
+.btn{
+	font-size: 18px;
+	color: #FFF;
+	padding: 12px 22px;
+	background: #5E4485;
+	border: 2px solid #FFF;
+}
+
+@media (max-width: 600px)
+{
+	.carousel-caption{
+		display: none;
+	}
+}
+
+.item img {
+  width: auto;
+  height: auto;
+   margin: 0 auto;
+}
+
+.textarea
+{
+	width: 850px;
+	height: 80px;
+	background-color: #fff;
+	resize: none;
+}
+
+.submit
+{
+	width: 100px;
+	height: 30px;
+	background-color: #282828;
+	border: none;
+	color: #fff;
+	font-family: arial;
+	font-weight: 400;
+	cursor: pointer;
+}
+
+.comment-box
+{
+	width: 815px;
+	padding: 20px;
+	margin-bottom: 4px;
+	background-color: #d3d3d3;
+	border-radius: 4px;
+}
+
+.comment-box p{
+	font-family: arial;
+	font-size: 14px;
+	line-height: 16px;
+	color: #282828;
+	font-weight: 100;
+}
+
+.delete-form 
+{
+	
+	top: 0px;
+	right: 40px;
+}
+
+.delete-form button
+{
+	color: #282828;
+	background-color: #fff;
+	width: auto;
+	height: auto;
+	color: #282828;
+	background-color: #fff;
+	opacity: 0.7;
+}
+
+.delete-form button:hover
+{
+		opacity: 1;
+}
+
