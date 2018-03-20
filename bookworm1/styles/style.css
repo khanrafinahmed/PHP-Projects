@@ -1,0 +1,168 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+
+body {
+
+background: white;
+}
+
+.main_wrapper
+{
+	width: 1000px;
+	height: auto;
+	margin: auto;
+	background: white;
+	
+}
+
+.header_wrapper
+{
+	width: 1000px;
+	height: 100px;
+	margin: auto;
+	
+}
+
+#logo
+{
+	height: 100px;
+	width: 170px;
+	float:left;
+}
+
+#banner
+{
+	float: right;
+	height: 100px;
+	width: 830px;
+}
+
+
+.menubar{
+	width: 1000px;
+	height: 50px;
+	background: #e5e5e5;
+	color: white;
+}
+
+#menu{
+	padding:0;
+	margin:0;
+	line-height:40px;
+	float: left;
+}
+
+#menu li{
+	list-style:none;
+	display: inline;
+}
+
+#menu a{
+	
+text-decoration: none;
+color: Black;
+padding: 6px;
+margin: 5px;
+font-size: 18px;
+font-family:  Arial;
+}
+
+#menu a:hover {color: #404040; font-weight: bolder;}
+#form {float: right; padding-right: 8px; line-height: 41px;}
+.content_wrapper
+{
+	width: 1000px;
+	
+	margin: auto;
+		background: white;
+	
+	
+}
+
+#content_area
+{
+	width: 800px;
+	
+	float: right;
+		background: white;
+	
+}
+
+#sidebar
+{
+	width: 200px;
+	height: 725px;
+	background: #e5e5e5 ;
+	float: left;
+	font-size: 35px;
+	margin: black;
+}
+
+#sidebar_title {
+	background: #00592D;
+	color: black;
+	font-size:22px;
+	font-family: arial;
+	padding: 10px;
+	text-align: center;
+}
+
+#cats
+{
+	
+}
+
+#cats li {list-style: none; margin: 5px;}
+
+#cats a {color: black; padding: 8px; margin: 5px; text-align: left; text-decoration:none; font-size: 15px; font-family:Arial ;}
+
+#cats a:hover {color: #404040; font-weight:bolder;}
+
+#products_box
+{
+	width: 780px;
+	text-align: center;
+	margin-left: 30px;
+	margin-bottom: 10px;
+	
+}
+
+#single_product {float:left; margin-left:20px; padding:10px; }
+
+#single_product img {border:1px solid black; }
+
+
+
+#footer
+{
+	width: 1000px;
+	height: 100px;
+	background: gray;
+	clear: both;
+}
+
+.col-md-4
+{
+	margin-top: 20px;
+}
